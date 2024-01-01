@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ restaurant.restaurant_name }} Menu</title>
+</head>
+<body>
+    <h1>{{ restaurant.restaurant_name }} Menu</h1>
+    <ul>
+        {% for dish in dishes %}
+            <li>{{ dish.dish_name }} - ${{ dish.price }}</li>
+            <form method="POST" action="{{ url_for('order', dish_id=dish.dish_id) }}">
+                <label for="quantity">Quantity:</label>
+                <input type="number" name="quantity" value="1" min="1" required>
+                <button type="submit">Order</button>
+            </form>
+        {% endfor %}
+    </ul>
+</body>
+</html>
