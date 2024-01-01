@@ -1,0 +1,537 @@
+,Unnamed: 0,restaurant_name,reviews,rating,price_range,restaurant_id
+0,0,Chilliesine Indian Restaurant - Hsinchu,157.0,5.0,,1
+1,1,Din Tai Fung,249.0,4.5,,2
+2,2,Wang Steak (Hsinchu Beida Branch),207.0,4.5,$$$$,3
+3,3,The Promenade,503.0,4.0,,4
+4,4,Le Cafe,471.0,4.0,,5
+5,5,Top One Pot - Guangming,290.0,4.5,,6
+6,6,ikki (Hsinchu Guangming Branch),343.0,4.5,,7
+7,7,A Cut Steakhouse,261.0,4.0,,8
+8,8,Chamonix teppanyaki (Zhubei Guangming Branch),333.0,4.5,$$$$,9
+9,9,Eatogether Hsinchu,132.0,4.5,$$ - $$$,10
+10,10,Si Chuan Duan Chun Zhen Beef Noodles,216.0,4.0,,11
+11,11,Fleur Lis-Recipe House,730.0,4.0,,12
+12,12,Zhu Coffee,139.0,4.5,,13
+13,13,Yakiyan (Guang Ming),219.0,4.5,,14
+14,14,Thai Town Cuisine - Hsinchu Sogo Store,78.0,4.5,,15
+15,15,Little Mongolian Hsinchu,165.0,4.0,,16
+16,16,Tokiya (Zhubei Guangming Branch),182.0,4.5,$$ - $$$,17
+17,17,Feast -Buffet and All Day Dining At Sheraton Hsinchu Hotel,933.0,4.0,,18
+18,18,Miao Kou Duck Rice,131.0,4.0,,19
+19,19,Table Joe Plus,79.0,4.5,,20
+20,20,Second Floor Cafe - Hsinchu,44.0,4.5,,21
+21,21,Pizza Rock Hsinchu,59.0,4.5,,22
+22,22,Shi Jia Fish Ball,60.0,4.5,,23
+23,23,Thai Town Cuisine- Hsinchu Big City Store,85.0,4.0,,24
+24,24,Liu Jia Rice With Minced Pork Sauce,89.0,4.0,,25
+25,25,Nakayama Restaurant,80.0,4.0,,26
+26,26,Xi Zi Beef Noodles,52.0,4.0,,27
+27,27,Stanley's Steak House,42.0,4.5,,28
+28,28,Buono Bella Italian Restaurant,60.0,4.0,,29
+29,29,Fu Yuan Peanut Butter Co. Ltd,43.0,4.0,,30
+30,30,iBeer Craft Beer Store,16.0,4.5,,31
+31,31,Thai Town Cusine- Zhubei Guangming Store,115.0,4.0,,32
+32,32,Do Re Mi Hand-Made Sweet Bean Soup,15.0,4.5,,33
+33,33,JuanToufu,38.0,3.5,$$ - $$$,34
+34,34,Plus Sauce - Ambassador Hotel Hsinchu,13.0,4.0,,35
+35,35,Nunu & Nigel's N2,13.0,5.0,,36
+36,36,Lang Man Japanese Food,14.0,4.5,,37
+37,37,Rong Ji Hakka Tangyuan,17.0,4.0,,38
+38,38,Yingzhen Garden Restaurant,27.0,4.0,,39
+39,39,Ten Kichi Ya - Big City,15.0,4.0,,40
+40,40,Fei Zai Long Non-Smoke Teppanyaki,27.0,4.0,,41
+41,41,Zebra Salsa Dining Bar,18.0,4.0,$$ - $$$,42
+42,42,House 6,21.0,4.0,,43
+43,43,Lao Duan Beef Noodles,18.0,4.0,,44
+44,44,Zhu Shan Noodle,29.0,4.0,,45
+45,45,Guang Hua Shaved Ice and Fruit Shop,17.0,4.5,,46
+46,46,Olive Tree Kitchen,11.0,4.5,,47
+47,47,Cao Gen Kitchen,12.0,4.5,,48
+48,48,Greenness Hot Pot Zhubei,103.0,4.0,,49
+49,49,Hong Kong Causeway Bay Eatery,14.0,4.5,,50
+50,50,Sunny Lulu Italian Cuisine,13.0,4.0,,51
+51,51,Bungy Jump Korean BBQ - ZhuBei Store,51.0,4.0,,52
+52,52,Chai Jiu Noodle House,17.0,4.0,,53
+53,53,Xi Le,12.0,4.5,,54
+54,54,Xinghuwei Zhujiaofan,17.0,4.0,,55
+55,55,Brulee Cafe,16.0,4.5,,56
+56,56,Dim Dim Sum - Hsinchu Ju Cheng,11.0,4.0,,57
+57,57,Chun Shui Tang (HsinChu Sogo),16.0,4.0,,58
+58,58,Urban Tribe,22.0,4.5,,59
+59,59,Bellini Pasta Pasta - Hsinchu Jucheng Branch,15.0,4.0,,60
+60,60,El Mundo,4.0,5.0,,61
+61,61,MAS India Foods,5.0,5.0,,62
+62,62,Ding Sheng Shr Li Hot Pot,12.0,4.0,,63
+63,63,Classic Steakhouse - Lakeshore Hotel Hsinchu,6.0,4.0,$$ - $$$,64
+64,64,Yats,10.0,4.0,,65
+65,65,Haagen-Dazs,8.0,4.0,,66
+66,66,Ginza Anzu Tonkatsu Hsinchu Sogo,8.0,4.5,,67
+67,67,Wah Cow Charcoal Fire Steak & Burger,17.0,4.0,,68
+68,68,Yang Jin Pasta,11.0,4.0,,69
+69,69,Ming Lu Roast Meat Shop,16.0,3.5,,70
+70,70,WOW Restaurant & Bar,12.0,4.0,,71
+71,71,Ta ho Yuan,21.0,4.0,,72
+72,72,Hai Yang Ice Town,8.0,4.0,,73
+73,73,Tudo Bem Bistro,6.0,4.5,,74
+74,74,Bigreeny Cuisine Home,6.0,5.0,,75
+75,75,Lu Fang Yuan Cafe Garden Restaurant,14.0,4.0,,76
+76,76,Xin Zhu Shi Di Yi Jia Grass Jelly Shop,9.0,4.0,,77
+77,77,Nola Kitchen (Zuke Branch),9.0,4.0,,78
+78,78,Ichiyaki,12.0,4.0,$$ - $$$,79
+79,79,Hai Shui Wu Seafood Stir Fry,19.0,3.5,,80
+80,80,Lucky Da Dhaba Indian Cuisine,3.0,5.0,,81
+81,81,Potato Lead Breakfast,8.0,4.5,,82
+82,82,White Beard Steak - Hsinchu,4.0,5.0,,83
+83,83,21 Century,17.0,3.5,,84
+84,84,Yuan Ye Shi Duck Noodle,15.0,4.0,,85
+85,85,Er Cun Sha Mian,5.0,4.5,,86
+86,86,Roast Restaurant,9.0,4.5,,87
+87,87,Milan Teppanyaki,6.0,5.0,,88
+88,88,Ojisanizakaya,7.0,4.0,,89
+89,89,3+1 Beer Bar,4.0,4.5,,90
+90,90,Bakery,6.0,4.0,,91
+91,91,A Cheng Hao Rice Noodles,32.0,3.5,,92
+92,92,Ru Yi Noodle Diner,9.0,4.0,,93
+93,93,Garden Party,3.0,4.5,,94
+94,94,Lotus Cafe,6.0,4.0,,95
+95,95,Lai Zuo Sesame Oil Chicken Shop,8.0,4.0,,96
+96,96,San He Yuan Hong Kong Restaurant,8.0,4.0,,97
+97,97,Yiyin,3.0,4.5,,98
+98,98,Shuang Xing Tenpura,16.0,3.5,,99
+99,99,Chishang Lunch Box,6.0,4.0,,100
+100,100,Vanessa Continental Cuisine,7.0,4.0,,101
+101,101,Shinbashi Japanese Cuisine,5.0,4.5,,102
+102,102,Bullfight Steak Restaurant,13.0,3.5,,103
+103,103,KaiYuan She Xiang Ji Pai,7.0,3.5,,104
+104,104,Elvis Diner,9.0,4.0,,105
+105,105,Uncle Nick's Fais Do Do,4.0,4.5,,106
+106,106,Qingcao Hu Xiangchang,2.0,5.0,,107
+107,107,Felice,4.0,4.5,,108
+108,108,Zhu Dong Qiu Spare Rib Noodles,50.0,4.0,,109
+109,109,Seed House,3.0,4.5,,110
+110,110,Hao Da Yi Kuai Lunchbox,5.0,4.0,,111
+111,111,I Love Mr. H,13.0,4.0,$$ - $$$,112
+112,112,Aroma Thai,4.0,4.5,,113
+113,113,LALA Kitchen (Hsinchu),7.0,3.5,$$ - $$$,114
+114,114,Miao Winter Melon With Mesona Slices,14.0,4.0,,115
+115,115,Wen Na Bao Zi Win,3.0,4.5,,116
+116,116,Pomelo’s Home,3.0,4.5,,117
+117,117,Sichang,7.0,4.5,,118
+118,118,Da Chu Buffet,3.0,4.5,,119
+119,119,Mangia New York Home Style Cooking,7.0,4.0,,120
+120,120,Li Ma Si Ji Hot Pot,10.0,3.5,,121
+121,121,Yashodha Indian Restaurant,12.0,4.0,,122
+122,122,Breakfast lady Noodle Shop,5.0,4.0,,123
+123,123,Fu Qi Fei Pian Spicy Hot Pot,7.0,4.0,,124
+124,124,Good Porridge Cantonese Porridge,2.0,4.5,,125
+125,125,Han Yi Guan,5.0,4.0,,126
+126,126,Shuiyuan Street Xiaolongbao,5.0,4.0,,127
+127,127,Beef Steakhouse,4.0,4.5,,128
+128,128,Zhu le Food Diner,5.0,4.0,,129
+129,129,Zhou Jia Stuffed Meatball (Bawan),4.0,4.0,,130
+130,130,Fish 180 - Hsinchu Big CIty,7.0,3.5,,131
+131,131,Bazar Blanc,7.0,4.0,,132
+132,132,Yuppie Restaurant,18.0,3.5,,133
+133,133,1010 Hunan Cuisine - Hsinchu Guanxin Store,3.0,4.5,,134
+134,134,39A Cafe,5.0,4.0,,135
+135,135,Chang Cheng Eatery,4.0,4.0,,136
+136,136,Shi Yi Jie Noodle Shop,85.0,4.0,,137
+137,137,Zhuji - Yuan Dong Bai Huo Hsinchu,4.0,4.0,,138
+138,138,Shako Restaurant,2.0,5.0,,139
+139,139,Le Nini Italian Cuisine - Hsinchu City Jing Pin Cheng,3.0,4.5,,140
+140,140,Sallowy,5.0,4.0,,141
+141,141,Easy House restaurant,53.0,4.5,,142
+142,142,New York Restaurant,4.0,4.5,,143
+143,143,Rui Si Fan Tuan - Dong Men,3.0,4.5,,144
+144,144,Shinchiao Yakiniku,46.0,4.5,,145
+145,145,Da Hai Ramen Jinshan Branch,9.0,3.5,,146
+146,146,DPTEPANYAKY,5.0,3.5,,147
+147,147,Tai Lang Bbq,3.0,4.5,,148
+148,148,Bistro Maverick,3.0,4.5,,149
+149,149,No.Two Cafe,3.0,4.5,,150
+150,150,Natural Vegetarian,2.0,4.5,,151
+151,151,Hairuigongwan-Damuzhi,3.0,3.5,,152
+152,152,Donburi Hsinchu,4.0,4.0,,153
+153,153,Jin Zhi Yuan Cafe,2.0,4.0,,154
+154,154,Spicy Pork Intestines Vermicelli,2.0,4.0,,155
+155,155,Ti Amo Italian Restaurant,4.0,4.0,,156
+156,156,Tekka Steak,6.0,3.5,,157
+157,157,Katsugyu - Hsinchu Jucheng,5.0,3.5,,158
+158,158,East Noodles,6.0,3.5,,159
+159,159,Niao Ban Ju Jiu Wu,2.0,4.5,,160
+160,160,Giguo - Hsinchu Shipin,1.0,5.0,,161
+161,161,Huai Xiang Mini Hot Pot & Mini Tofu,3.0,3.5,,162
+162,162,Zhuan Jiao 726 Shou Gong Coffee,1.0,5.0,,163
+163,163,Tai He Pork Ramen,4.0,4.5,,164
+164,164,Tiantian Guowu,3.0,4.0,,165
+165,165,A-Zhong Shaved Ice,31.0,3.5,$,166
+166,166,Ippudo Express- Hsinchu Big City,2.0,4.0,,167
+167,167,Two Moon Hotpot - Hsinchu,1.0,5.0,,168
+168,168,Lao Huang Pigs' Knuckles King,14.0,4.0,,169
+169,169,21 Village,1.0,5.0,,170
+170,170,San Bao Spicy Hot Pork Intestines Vermicelli,1.0,5.0,,171
+171,171,Juan Cun Pang,1.0,5.0,,172
+172,172,Jie Mei Fan Tong,2.0,4.0,,173
+173,173,Yonghe Dou Jiang,1.0,5.0,,174
+174,174,Orange Market,4.0,3.5,,175
+175,175,Jingting Restaurant,6.0,4.0,,176
+176,176,Fu Tian Yuan Fan Mian Guan,2.0,4.0,,177
+177,177,Lao Nong Jia Vietnamese Diner,5.0,3.5,,178
+178,178,Every Day,1.0,5.0,,179
+179,179,Cafe de Flore,2.0,4.0,,180
+181,181,Du Lao Die Hand-Made Dumplings,2.0,4.0,,182
+182,182,La Famiglia,2.0,4.0,,183
+183,183,Acre Park,1.0,5.0,,184
+184,184,Shang Guan Dong Shabu Shabu,4.0,3.5,,185
+185,185,Zhu Ye Roast Pork Rice,2.0,4.0,,186
+186,186,Double Taste Donburi,1.0,4.0,,187
+187,187,Ma Ma Lee's Rice Tube Pudding,1.0,4.0,,188
+188,188,Leisure Tea Coffee,1.0,4.0,,189
+189,189,Yentl Pasta - Guan Xin,1.0,4.0,,190
+190,190,Wan Hsiung BigCity,1.0,5.0,,191
+191,191,Starbucks-Hsinchu Jieshou Store,1.0,4.0,,192
+192,192,Life Kitchen - Hsinchu,1.0,4.0,,193
+193,193,Huang Cheng Cantonese Roast,1.0,4.0,,194
+194,194,Qingchuan Mala Soup,1.0,4.0,,195
+195,195,Tianli Idea - Jinshan,5.0,3.5,,196
+196,196,Cafe Grazie,4.0,3.5,,197
+197,197,Mooi Town,4.0,3.5,,198
+198,198,Hou Steak,5.0,3.5,,199
+199,199,Jing Yuan Fried Pork Chop,6.0,3.5,,200
+200,200,Kuraya Yakiniku,2.0,4.0,,201
+201,201,Gai Fan Wu Japanese Restaurant,3.0,3.5,,202
+202,202,Cheng Jia Zongzi King,8.0,4.0,,203
+203,203,Noble Family Steak House,5.0,3.5,,204
+204,204,Kitai Japanese Cuisine,1.0,5.0,,205
+205,205,Fei Long Stuffed Meatball (Bawan),8.0,4.0,,206
+206,206,Warm,3.0,3.5,,207
+207,207,Ximen Rou Geng Mian Xian,1.0,4.0,,208
+208,208,Min food,1.0,4.0,,209
+209,209,Sanwei Yan Su Ji - Guandong,1.0,4.0,,210
+210,210,Kimukatsu- Hsinchu Big City Mall,1.0,4.0,,211
+211,211,Meyi Pasta,2.0,4.0,,212
+212,212,He Yuan Tea House,1.0,4.0,,213
+213,213,Shulin Tou Shui Jian Bao,1.0,4.0,,214
+214,214,Erise Coffee,1.0,4.0,,215
+215,215,Yi Pin Duck Noodles,1.0,4.0,,216
+216,216,Zhu Cun Japanese Restaurant,1.0,4.0,,217
+217,217,Lao Wang Ji Xiaoguan,1.0,4.0,,218
+218,218,Mu Mu,2.0,4.0,,219
+219,219,Chef Red Teppanyaki,4.0,4.0,,220
+220,220,Marukame - Hsinchu Big City Mall,2.0,3.5,,221
+221,221,Tang Lao Ya Cantonese-Style Barbecue Diner,1.0,4.0,,222
+222,222,Chuan Liu Dao Xiao Beef Noodle Restaurant,1.0,4.0,,223
+223,223,Starbucks,3.0,3.5,,224
+224,224,Wu Ji Sliced Noodle,1.0,4.0,,225
+225,225,Machi Ethnic Food,1.0,5.0,,226
+226,226,Yi Li Jia Man Tou,1.0,4.0,,227
+227,227,Shui Ge Yang Sheng Zao Can,1.0,4.0,,228
+228,228,Jinling Baozi,4.0,3.5,,229
+229,229,Lao Mai Homemade Fish Ball Shop,1.0,4.0,,230
+230,230,Toscana Ristroante,1.0,4.0,,231
+231,231,Dong Jia Bian Dang,1.0,4.0,,232
+232,232,Dapaidang Stir-Fries,1.0,4.0,,233
+233,233,8Guo Chou Chou Guo,1.0,4.0,,234
+234,234,Dookki Liang Can - Hsinchu,1.0,4.0,,235
+235,235,Ka Shi Cafe,1.0,4.0,,236
+236,236,San Shang Qiao Fu - Hsinchu,2.0,3.5,,237
+237,237,Zhu Feng Yuan,1.0,4.0,,238
+238,238,Bangkok Market,2.0,3.5,,239
+239,239,Shian Yeou Hsinchu Jingguo,54.0,3.5,,240
+240,240,Hang Jia Hong Kong Style Roast,1.0,3.0,,241
+241,241,Elegancy Restaurant,2.0,3.0,,242
+242,242,Hong Jin Shitang,1.0,3.0,,243
+243,243,Monet's Garden,3.0,2.5,,244
+244,244,My Home Steak,1.0,3.0,,245
+245,245,Xi Le Breakfast,2.0,3.0,,246
+246,246,Jia Feng Chinese Roast,1.0,3.0,,247
+247,247,Howard Hotel-Li Xiang Yuan,2.0,3.0,,248
+248,248,Irodori Sushi - Hsinchu Big City Mall,2.0,3.0,,249
+249,249,Yi Pin Xuan Duck Noodles - Nanda,3.0,3.0,,250
+250,250,A Ji Hai Xian Canting,1.0,3.0,,251
+251,251,Xie Le Raman,1.0,3.0,,252
+252,252,Xiao Shang Hai Stew Shop,3.0,3.5,,253
+253,253,Xucheng Restaurant Hsinchu Big City,2.0,3.0,,254
+254,254,Coco Ichibanya,1.0,3.0,,255
+255,255,Zhen Yue Gang Shi Dian Xin Fang,1.0,3.0,,256
+256,256,Fugootain,1.0,3.0,,257
+258,258,Yi He Onigiri,1.0,3.0,,259
+259,259,A Li Lang Restaurant,2.0,3.0,,260
+260,260,Da Tou Zi Fresh Seafood,1.0,3.0,,261
+261,261,Lima Sijiguo,2.0,3.0,,262
+262,262,Hai Fu Yuan,1.0,3.0,,263
+263,263,Just for Fun,2.0,3.0,,264
+264,264,City Taipei,1.0,3.0,,265
+265,265,Jin Da Chu Shou Xi Shao - Xinzhu Branch,1.0,3.0,,266
+266,266,Together Italian French Restaurant,1.0,3.0,,267
+267,267,The RED,1.0,3.0,,268
+268,268,Pumpkin Pub,1.0,3.0,,269
+269,269,Xing Wu Cheesecake,1.0,3.0,,270
+270,270,Yakiniku Restaurant,4.0,4.0,,271
+271,271,Yenchiang Hotpot,2.0,4.5,,272
+272,272,Zenglongya - Zhubei,24.0,4.5,,273
+273,273,Ke Zih Hu,5.0,4.5,,274
+274,274,Louisa Coffee - Zhubei Guangming Store,35.0,4.0,,275
+275,275,Chatime Lounge,1.0,3.0,,276
+276,276,Zi Wei Zhai Vegetarian Diner,1.0,3.0,,277
+277,277,Yong Hao Hang,1.0,3.0,,278
+278,278,Zhang Jie Gu Zao Wei Shi Tang,1.0,3.0,,279
+279,279,Xiang Restaurant,2.0,4.5,,280
+280,280,Savory Asia Delicacy,2.0,4.5,,281
+281,281,Jawu Japanese Restaurant,13.0,3.5,,282
+282,282,Ginger Duck Hot Pot,1.0,2.0,,283
+283,283,Bai Gu Vegetarian Food,1.0,3.0,,284
+284,284,Zun Huang Gu Yi Restaurant,14.0,4.0,,285
+285,285,Qing Zhou Xiao Cai,1.0,3.0,,286
+286,286,"Chiuan Jia Fu Hakka Cuisine Restaurant, Zhubei City",14.0,4.5,,287
+287,287,Bei Men Fried Bowl Rice Cake,18.0,3.5,,288
+288,288,Sushi Vogue,17.0,4.0,,289
+289,289,Shanfa Food,2.0,4.5,,290
+290,290,Magic Curry,2.0,4.5,,291
+291,291,Ma De Lei Kafei Guan,1.0,3.0,,292
+292,292,La Miette Cafe&Bistro,7.0,4.5,,293
+293,293,Bamboo,20.0,4.0,,294
+294,294,Kubo Eel,1.0,4.0,,295
+295,295,Shannover Pasta,3.0,3.0,,296
+296,296,Lao Jie Steamed Sandwich & Chinese Burrito,3.0,4.0,,297
+297,297,Day Day Go,1.0,2.0,,298
+298,298,Yummy Hotpot,7.0,3.5,,299
+299,299,Takenoaidani - Hsinchu Nanya,1.0,5.0,,300
+300,300,Luo Yin Fusion Breakfast,5.0,4.5,,301
+301,301,Zebra Salsa,29.0,4.0,$$ - $$$,302
+302,302,Ootoya,24.0,4.0,,303
+303,303,Moon Japanese Cuisine At Sheraton Hsinchu Hotel,52.0,4.0,,304
+304,304,Melaka Kopitiam (Zhubei Branch),29.0,4.0,,305
+305,305,北香哨子麵,3.0,4.0,,306
+306,306,Thai Town Cuisine - Hsinchu Taroko Mall Store,7.0,3.5,,307
+307,307,Tripodking Guangming,60.0,4.0,,308
+308,308,Na Wei Eatery,2.0,5.0,,309
+309,309,Sheng Hsiang Lo - Landis Inn Chuhu,3.0,2.5,,310
+310,310,Tai ho Dien Spicy Hot Pot Restaurant,8.0,3.0,,311
+311,311,Xin Yuan Breakfast Shop,14.0,4.0,,312
+312,312,Mazendo (Hsinchu Nanya),1.0,3.0,,313
+313,313,Ca' Bianca Pizzeria,9.0,4.5,,314
+314,314,Curry Time,4.0,4.0,,315
+315,315,J.Eat Cafe,6.0,4.5,,316
+316,316,Grain Pavilion - Zhubei,3.0,3.5,,317
+317,317,Fresh Corner,20.0,4.5,,318
+318,318,Sunrise Teppanyaki,3.0,4.5,,319
+319,319,Home Yakiniku,19.0,4.0,,320
+320,320,Xian Xiang Restaurant,1.0,4.0,,321
+321,321,Luodong Diyi Shitou Huoguo - Zhubei Branch,7.0,4.5,,322
+322,322,Han Guo Guan Korean Restaurant,16.0,4.0,,323
+323,323,Guo Niu Guo Wu - Zhubei,8.0,4.0,,324
+324,324,Lucky Da Dhaba,3.0,2.5,,325
+325,325,Sixteenth Area Sushi Shop,4.0,4.0,,326
+326,326,Jiu Yao Japanses Cuisine & Bar - Zhubei Shop,15.0,4.0,,327
+327,327,Family Pizza-Xin Zhu Zhu Bei,20.0,4.5,,328
+328,328,Oh Mai,10.0,4.0,,329
+329,329,Lacasa Bistro,3.0,4.5,,330
+330,330,Huang Cheng Roast Meat Deli,1.0,1.0,,331
+331,331,Chun Shui Tang (Chu Pei),21.0,4.0,,332
+332,332,Zheng Xiang Breakfast,5.0,3.0,,333
+333,333,Ruban Bistro Bar,7.0,5.0,,334
+334,334,Ti Hu Wei Jin Pai Zhu Jiao Fan - Hsinchu Zhongzheng,1.0,3.0,,335
+335,335,Qian Tian Wu Bbq,3.0,2.5,,336
+336,336,Chun Shui Tang - Taroko Square,1.0,3.0,,337
+337,337,Zheng Lao Lin,2.0,4.0,,338
+338,338,Zhu Ji Dumpling & Noodle House,3.0,4.0,,339
+339,339,HOLI Indian restaurant,4.0,5.0,,340
+340,340,Juicy Eat,2.0,4.0,,341
+341,341,Yuan Wei Ya Rou Fan - Gao Tie,4.0,3.0,$$ - $$$,342
+342,342,Polar Bear Shabu,3.0,4.5,,343
+343,343,Lao Fu Xing Yin Shi Dian,5.0,3.5,,344
+344,344,Mr. Steak - Zhubei Branch,2.0,4.0,,345
+345,345,Mon Jay Thai Cuisine,1.0,5.0,,346
+346,346,Hao Ke Mantou Shop,3.0,3.5,,347
+347,347,Wuji Yunnan Restaurant,8.0,3.5,,348
+348,348,Re Lao Chao Zhong Shi Can Ting,1.0,4.0,,349
+349,349,Kai Fun Together - Zhubei Guangming Branch,20.0,4.0,,350
+350,350,Kaidon No.1 - Zhubei Store - Zhubei Store,19.0,3.5,$,351
+351,351,Merry Cafe,2.0,4.5,,352
+352,352,Yuanshou Sushi,6.0,3.5,,353
+353,353,Christine's Cake,6.0,5.0,,354
+354,354,Amici Pasta & Pizza,15.0,4.0,$$ - $$$,355
+355,355,Xiao Ji Xiao Long Bao Shop,3.0,3.0,,356
+356,356,Culturalist Beef Noodles,26.0,4.0,,357
+357,357,Hu Tong Yakiniku,11.0,4.5,$$$$,358
+358,358,Le She Cafe,3.0,3.5,,359
+359,359,Fion Cafe,1.0,4.0,,360
+360,360,Appare,6.0,4.0,$$ - $$$,361
+361,361,Tao Yuan Steak House,25.0,3.5,,362
+362,362,ShuXi Vegetarian,2.0,4.0,,363
+363,363,Bravo Pizza & Pasta,16.0,4.0,,364
+364,364,Meet Cafe Bar,1.0,4.0,,365
+365,365,Sakura Japanese Yakiniku Restaurant,4.0,3.0,,366
+366,366,The Great Panino,4.0,4.5,,367
+368,368,Nabemono - Chenggong,2.0,5.0,,369
+369,369,Machi Kitchen,3.0,4.5,,370
+370,370,Yeer Lou,2.0,3.0,,371
+371,371,Jun Mei Cake Company,15.0,4.0,,372
+372,372,Jin Sha Wan Seafood Restaurant,1.0,4.0,,373
+373,373,San Chang Jiang Dian,8.0,4.0,,374
+374,374,Top-D Restaurant Zhubei,17.0,3.5,,375
+375,375,Chun Xi,1.0,3.0,,376
+376,376,Xin Yuan Seafood Restaurant,1.0,4.0,,377
+377,377,Jinshan Ji Tui Fan,8.0,4.0,,378
+378,378,Lazo Steak House,3.0,4.5,,379
+379,379,Rokkaku Japanese Restaurant,4.0,3.5,,380
+380,380,Yin Ji Beef Noodles,3.0,3.5,,381
+381,381,No.40 Beimen,5.0,4.0,,382
+382,382,Jie Fang Shabu Shabu,6.0,4.5,,383
+383,383,Naughty Thai,9.0,4.5,,384
+384,384,A Fu Lu Rou Fan,3.0,4.0,,385
+385,385,Zhu Xuan Hei Sha Tang Pao Bing,1.0,3.0,,386
+386,386,Bite 2 Eat,15.0,4.0,,387
+387,387,Xia Lv Di,2.0,3.5,,388
+388,388,Delicacy Personal Boil,15.0,4.5,,389
+389,389,Huo Zhe Shudian . Shi Yin,3.0,4.5,,390
+390,390,Do Jiang Yan Sichuan Cuisine,1.0,4.0,,391
+391,391,Hito Bbq - Zhubei,1.0,4.0,,392
+392,392,Xin Ming Beef Noodles - Zhongzheng,2.0,3.0,,393
+393,393,Light Bar @ Sheraton Hsinchu,1.0,4.0,,394
+394,394,1080 Cloverleaf Restaurant,5.0,4.5,,395
+395,395,HiStory,4.0,4.5,$$ - $$$,396
+396,396,Imperial Tonic Red-Faced Ginger Duck Hot Pot,2.0,4.5,,397
+397,397,Shang Pin Yuan Teppanyaki - Zhubei Zhuangjing,24.0,4.0,$$ - $$$,398
+398,398,Si Ji Feng Cafe,1.0,3.0,,399
+399,399,Hot Steak,2.0,4.0,,400
+400,400,Tian Chuan Japanese Cuisine,2.0,3.0,,401
+401,401,Momotaro Japanese Yakiniku,17.0,4.0,,402
+402,402,DR. Ink,16.0,4.5,$$$$,403
+403,403,Zhu Mei Ji Bao Xie,1.0,2.0,,404
+404,404,Fanier Burger Pasta Brunch & More,15.0,4.0,$$ - $$$,405
+405,405,Echo 161,2.0,5.0,,406
+406,406,Coffee Owner,6.0,4.5,,407
+407,407,Fu Sheng Ting Tonkatsu Zhubei,2.0,3.0,,408
+408,408,Osaka Ohsho,2.0,2.5,,409
+409,409,Ba Fang Yun Ji Dumpling - Zhubei Shengli,10.0,4.0,,410
+410,410,Dungta Paigu - Ziqiang Flagship Store,5.0,4.0,,411
+411,411,Oriental Curry,6.0,3.0,,412
+412,412,Tony's Brasserie,8.0,4.0,,413
+413,413,Ri Yang Gourmet Food Shop,4.0,4.0,,414
+414,414,Bravo Hot Pot Hsinchu Gongdao 5th,20.0,3.5,,415
+415,415,Tino's Pizza,12.0,4.0,,416
+416,416,Yuan Qiao Xia Dumpling,21.0,4.0,,417
+417,417,Pang Lao Die American Fried Chicken,10.0,4.0,,418
+418,418,Zhuangjia He Zi Jian,1.0,3.0,,419
+419,419,Bistro By Nelson,8.0,4.5,,420
+420,420,Da Zhu Bei Tofu Pudding,4.0,4.0,,421
+421,421,Zhuan Jiao Pottery House,6.0,3.5,,422
+422,422,Niou Ting Bbq,2.0,3.0,,423
+423,423,Diner Restaurant,11.0,4.0,,424
+424,424,Paella,15.0,4.0,,425
+425,425,Xin Tian Shi Huo Ha Zhi Jia,1.0,3.0,,426
+426,426,Cat Corner,3.0,4.0,,427
+427,427,Starbucks Coffee,30.0,3.5,,428
+428,428,Thailand House Thai Food,4.0,3.5,,429
+429,429,Adagio,5.0,3.5,,430
+430,430,Lao Fan Free Range Chicken,1.0,4.0,,431
+431,431,Honey Bear's Pizza Kiln Restaurant,1.0,4.0,,432
+432,432,Xi Hai An Live Shrimp Food,1.0,5.0,,433
+433,433,Fei Cai Skewers & Beer,1.0,4.0,,434
+434,434,Yan Jing Noodle & Flour Foods,2.0,4.0,,435
+435,435,Cai Ji Shao Jiu Ji,2.0,4.0,,436
+436,436,Monet Garden,1.0,4.0,,437
+437,437,Cook Table Restaurant,2.0,4.0,,438
+438,438,Sunlight Cuisine,1.0,4.0,,439
+439,439,Shangguan Mutong Zhubei,2.0,4.0,,440
+440,440,Ding Feng Yuan,13.0,4.0,,441
+441,441,Aspoon Aspoon,1.0,5.0,,442
+442,442,Toscanini Italian Restaurant - Xinzhu Metro Store,1.0,4.0,,443
+443,443,Jen-Hong Teppanyaki,2.0,1.5,,444
+444,444,Lius Hot Pot,3.0,3.5,,445
+446,446,Go Bear,2.0,4.0,,447
+447,447,Wen Jia Dumplings,2.0,4.5,,448
+448,448,Volcanic Rock,4.0,4.0,,449
+449,449,Toro Japanese Restaurant,4.0,4.5,,450
+450,450,C. Up C+ Tea & Juice,,,,451
+451,451,Hai Yang Cafe,,,,452
+452,452,Shabusato - 晶品城店,,,,453
+453,453,Liu Jiao Coffee Shop,,,,454
+454,454,The Fat Olive in Hsinchu Sogo,,,,455
+455,455,Aminda Pasta & Pizza Delicacy,,,,456
+456,456,La Piola 49,,,,457
+457,457,17 Pasta,,,,458
+458,458,Baoye Chicken Shop,,,,459
+459,459,Xi Yang Ting Japanese Food,,,,460
+460,460,Yue du Cafe,,,,461
+461,461,Jiu Jiu Jiu Coffee Tv Tea House,,,,462
+462,462,Guo Ting Vegetarian Restaurant,,,,463
+463,463,Asahi skewers,,,,464
+464,464,Don Show Buri,,,,465
+465,465,Yue Long Yuan Bistro,,,,466
+466,466,Long Quan Seafood Restaurant,,,,467
+467,467,Lian Xiang Yuan Diner,,,,468
+468,468,Sheng Huo Chan Vegetarian Diner,,,,469
+469,469,Quantum Tacos,,,,470
+470,470,Cong Lin Coffee,,,,471
+471,471,Qin Shi Fu Shui Jian Bao Xiao Long Bao,,,,472
+472,472,No. 45 Hot Pot,,,,473
+473,473,Rose Garden,,,,474
+474,474,Zhi Ren Jing Fan,,,,475
+475,475,Pepper Lunch - J.Piin,,,,476
+476,476,Min Quan Seafood Restaurant,,,,477
+477,477,Caffe Alto,,,,478
+478,478,Hong Gu Smokeless Teppanyaki,,,,479
+479,479,Luciano Bar,,,,480
+480,480,Mita Fancy,,,$,481
+481,481,Kanto Pot King,,,,482
+482,482,Quxiang Ice Cream Shop~Dulaoye Ice Cream Shop,,,,483
+483,483,Tjb Cafe,,,,484
+484,484,Shi Shang Shitang,,,,485
+485,485,Yin Shi Jia Business Lunch,,,,486
+486,486,Mu Nei Coffee,,,,487
+487,487,La Croqueta Tapas,,,,488
+488,488,Yuan Xiang Chinese Cuisine House,,,,489
+489,489,La Bi Xiaoxin Mini Hot Pot,,,,490
+490,490,Gino Pasco,,,,491
+491,491,Shankou Cishen Jing Fan Zhuanmai Dian - Dongmen,,,,492
+492,492,Emma Steak House,,,,493
+493,493,Sugakiya - Hsinchu SOGO,,,,494
+494,494,Guang Ramen,,,,495
+495,495,Chu Dai Japanese Ramen,,,,496
+496,496,Er Hotpot,,,,497
+497,497,Merci Restaurant,,,,498
+498,498,Giguo - Hsin Chu SOGO Branch,,,,499
+499,499,Hana Japanese Restaurant - Hsinchu Branch,,,,500
+500,500,Zhen Xiang Dim Sum Restaurant,,,,501
+501,501,Futian Restaurant,,,,502
+502,502,Gao Ji Stuffed Corn Cake,,,,503
+503,503,Qin He Feng Shengji Vegetarian Restaurant,,,,504
+504,504,Delicious Special Salted Chicken,,,,505
+505,505,Huang Cheng Roast Meat,,,,506
+506,506,Moma Cafe,,,,507
+507,507,Very Thai Noodles - Hsinchu Big City Store (Express),,,,508
+508,508,Hillcafe,,,,509
+509,509,Dong Zhuan Chi Shang Fan Bao,,,,510
+510,510,Li Cun Black Tea House,,,,511
+511,511,Hot Pocket Bakery,,,,512
+512,512,Turtle Bird Studio,,,,513
+513,513,Lucino Bar,,,,514
+514,514,S.M.T. Spicy Hotpot,,,,515
+515,515,A Hua Noodle,,,,516
+516,516,Yu Lei Hai Xian Seafood Restaurant,,,,517
+517,517,Kanpai Yakiniku,,,,518
+518,518,Xianluo Thai Delicacies,,,,519
+519,519,Shi Yue Restaurant,,,,520
+520,520,Painting Cafe,,,,521
+521,521,Round & Round,,,,522
+522,522,Xiu Ming Vegetarian Buffet,,,,523
+523,523,Roast Room.8,,,,524
+524,524,Bruin Cafe,,,,525
+525,525,Free Man Cafe,,,,526
+526,526,Fan Erh Seng Coffee,,,,527
+527,527,Da Kou Sushi Store,,,,528
+528,528,Yun Chen Italian Restaurant - Hsinchu Ai Mai,,,,529
+529,529,Yang Guang Seafood Restaurant,,,,530
+530,530,Wei Lan Hai An Cafe,,,,531
+531,531,Miyoshi Xiao Bo Cuisine,,,,532
+532,532,Joy Garden Cafe' & Restaurant,,,,533
+533,533,Zang Main Ge Hand-made Noodles Restaurant,,,,534
+534,534,Piso 46 Party Restaurant,,,,535
+535,535,Meat K Original,,,,536
+536,536,Si Chang,,,,537
+537,537,Shan Mu Tea House,,,,538
+538,538,Choya - Lakeshore Hotel Hsinchu,,,,539
+539,539,The Secret,,,,540
