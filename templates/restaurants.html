@@ -27,16 +27,20 @@
         h1 {
             color: #333;
             margin: 0;
+            font-size: 2em;
         }
 
         ul {
             list-style: none;
             padding: 0;
             margin: 0;
+            overflow-y: auto; /* Add scrollbar when the list is too long */
+            max-height: 70vh; /* Set maximum height for the list */
         }
 
         li {
             margin-bottom: 10px;
+            font-size: 1.2em;
         }
 
         a {
@@ -44,6 +48,11 @@
             color: #007bff;
             font-weight: bold;
             transition: color 0.3s ease;
+            display: block;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         a:hover {
@@ -54,12 +63,39 @@
             margin-top: 20px;
             text-align: center;
         }
+
+        .flashes {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            display: none;
+        }
+
+        .flashes.visible {
+            display: block;
+        }
+        
     </style>
 </head>
 
 <body>
+    <div id="flashes" class="flashes">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    {{ message }}
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </div>
     <header>
-        <h1>Welcome to our Food Ordering Website!</h1>
+        <h1>List of Filtered Restaurants</h1>
     </header>
 
     <ul>

@@ -1,0 +1,15 @@
+.flashes {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    padding: 10px;
+    background-color: #4CAF50; 
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 1000;
+    display: none;
+}
+

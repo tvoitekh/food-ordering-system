@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,22 +15,30 @@
             padding: 0;
         }
 
-        form {
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .login-form {
             max-width: 400px;
-            margin: 50px auto;
+            width: 100%;
             padding: 20px;
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
         }
 
-        h1 {
-            color: #333;
+        .form-group {
+            margin-bottom: 20px;
         }
 
         label {
             display: block;
-            margin: 10px 0 5px;
+            margin-bottom: 5px;
             color: #555;
         }
 
@@ -52,34 +61,65 @@
         button:hover {
             background-color: #45a049;
         }
-
         .flashes {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            color: #d9534f;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #a72828;
+            color: #fff;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            display: none;
+        }
+
+        .flashes.visible {
+            display: block;
         }
     </style>
 </head>
 <body>
-    <form method="POST">
-        {{ form.hidden_tag() }}
-        {{ form.csrf_token }}
-        <h1>Login</h1>
+    <div id="flashes" class="flashes">
         {% with messages = get_flashed_messages() %}
             {% if messages %}
-                <ul class="flashes">
-                    {% for message in messages %}
-                        <li>{{ message }}</li>
-                    {% endfor %}
-                </ul>
+                {% for message in messages %}
+                    {{ message }}
+                {% endfor %}
             {% endif %}
         {% endwith %}
-        <label for="email">Email</label>
-        {{ form.email() }}
-        <label for="password">Password</label>
-        {{ form.password() }}
-        <button type="submit">Login</button>
-    </form>
+    </div>
+    <div class="container">
+        <form method="POST" class="login-form">
+            {{ form.hidden_tag() }}
+            {{ form.csrf_token }}
+            <h1>Login</h1>
+            <div class="form-group">
+                <label for="email">Email</label>
+                {{ form.email() }}
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                {{ form.password() }}
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='flash_messages.js') }}"></script>  
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var flashContainer = document.getElementById('flashes');
+    
+            var hasMessages = flashContainer.innerText.trim() !== '';
+    
+            if (hasMessages) {
+                flashContainer.classList.add('visible');
+    
+                setTimeout(function () {
+                    flashContainer.classList.remove('visible');
+                }, 5000);
+            }
+        });
+    </script>
 </body>
 </html>

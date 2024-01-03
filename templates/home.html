@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <title>Online Food Ordering System</title>
     <style>
         body {
@@ -22,15 +23,22 @@
 
         h1 {
             color: #333;
+            font-size: 36px;
+            margin-bottom: 20px;
         }
 
         p {
             color: #666;
+            font-size: 18px;
         }
 
         ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         li {
@@ -39,30 +47,76 @@
 
         a {
             text-decoration: none;
-            color: #007bff;
+            color: #fff;
             font-weight: bold;
             font-size: 18px;
-            padding: 10px;
-            border: 2px solid #007bff;
+            padding: 12px 20px;
             border-radius: 5px;
             transition: background-color 0.3s ease;
         }
 
         a:hover {
             background-color: #007bff;
+        }
+
+        .login-btn {
+            background-color: #28a745;
+        }
+
+        .register-btn {
+            background-color: #007bff; /* Blue */
+        }
+        .flashes {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #28a745;
             color: #fff;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            display: none;
+        }
+
+        .flashes.visible {
+            display: block;
         }
     </style>
 </head>
 <body>
+    <div id="flashes" class="flashes">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    {{ message }}
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </div>
     <div class="container">
-        <h1>Welcome to My Food Ordering App</h1>
-        <p>Choose an option below:</p>
+        <h1>Welcome to Our Food Ordering App</h1>
+        <p>Explore a variety of restaurants and delicious options near NYCU</p>
         <ul>
-            <li><a href="{{ url_for('login') }}">Login</a></li>
-            <br>
-            <li><a href="{{ url_for('register') }}">Register</a></li>
+            <li><a class="login-btn" href="{{ url_for('login') }}">Login</a></li>
+            <li><a class="register-btn" href="{{ url_for('register') }}">Register</a></li>
         </ul>
     </div>
+    <script src="{{ url_for('static', filename='flash_messages.js') }}"></script>  
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var flashContainer = document.getElementById('flashes');
+    
+            var hasMessages = flashContainer.innerText.trim() !== '';
+    
+            if (hasMessages) {
+                flashContainer.classList.add('visible');
+    
+                setTimeout(function () {
+                    flashContainer.classList.remove('visible');
+                }, 5000);
+            }
+        });
+    </script>
 </body>
 </html>
