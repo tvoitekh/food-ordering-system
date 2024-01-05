@@ -182,9 +182,9 @@ def login():
 
 
 def filter_restaurants_by_criteria(cuisine_id, price, review):
-    avg_worth = func.avg(Dishes.price.cast(Float)).label('avg_worth')
-    std_dev = func.stddev(Dishes.price.cast(Float)).label('std_dev')
-    
+    avg_worth = func.avg(cast(Dishes.price, Float)).label('avg_worth')
+    std_dev = func.stddev(cast(Dishes.price, Float)).label('std_dev')
+
     avg_worth_subquery = (
         db.session.query(avg_worth, std_dev, Restaurant.restaurant_id)
         .join(RestaurantCuisine, RestaurantCuisine.restaurant_id == Restaurant.restaurant_id)
@@ -199,8 +199,10 @@ def filter_restaurants_by_criteria(cuisine_id, price, review):
     ).first()
 
     threshold_multiplier = 2.0
-    expensive_threshold = float(overall_avg_worth + threshold_multiplier * overall_std_dev)
-    affordable_threshold = float(overall_avg_worth - threshold_multiplier * overall_std_dev)
+    expensive_threshold = overall_avg_worth + \
+        threshold_multiplier * overall_std_dev
+    affordable_threshold = abs(
+        overall_avg_worth - abs(threshold_multiplier * overall_std_dev))
 
     query = db.session.query(Restaurant)
 
@@ -225,12 +227,12 @@ def filter_restaurants_by_criteria(cuisine_id, price, review):
         query = query.filter((avg_worth_subquery.c.avg_worth >= affordable_threshold) & (
             avg_worth_subquery.c.avg_worth <= expensive_threshold))
 
-    if review == '501':
-        query = query.filter(Restaurant.reviews > 500)
-    elif review == '301':
-        query = query.filter(Restaurant.reviews > 300)
+    if review == '201':
+        query = query.filter(Restaurant.reviews > 200)
     elif review == '101':
         query = query.filter(Restaurant.reviews > 100)
+    elif review == '51':
+        query = query.filter(Restaurant.reviews > 50)
 
     filtered_restaurants = query.all()
 
@@ -259,9 +261,9 @@ class FilterForm(FlaskForm):
 
         review_choices = [
             ('', 'Any Review Number'),
-            (501, 'More than 500'),
-            (301, 'More than 300'),
-            (101, 'More than 100'),
+            (201, 'More Than 200'),
+            (101, 'More Than 100'),
+            (51, 'More Than 50'),
         ]
 
         review = SelectField('Review Number', choices=review_choices)
@@ -289,7 +291,7 @@ def filter_restaurants():
 @login_required
 def logout():
     logout_user()
-    flash("Logged out successfully" , category='success')
+    flash("Logged out successfully", category='success')
     return redirect(url_for('home'))
 
 
