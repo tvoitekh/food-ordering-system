@@ -73,7 +73,6 @@ class Restaurant(db.Model):
     restaurant_name = db.Column(db.String(255), nullable=False)
     reviews = db.Column(db.Integer)
     rating = db.Column(db.Float)
-    price_range = db.Column(db.String(10), nullable=True)
     cuisines = db.relationship(
         'Cuisine', secondary="food_ordering_system.restaurantcuisine", backref='restaurant', lazy='subquery')
     dishes = db.relationship(
@@ -322,26 +321,6 @@ def order(dish_id):
     flash(f'Order placed successfully. Total: ${total_price}', 'success')
     return redirect(url_for('order_history'))
 
-
-"""
-with app.app_context():
-    try:
-        db.create_all()
-        restaurants = Restaurant.query.limit(5).all()
-
-        print("\nRestaurant Table:")
-        for restaurant in restaurants:
-            print(f"Restaurant ID: {restaurant.restaurant_id}, Name: {restaurant.restaurant_name}, Reviews: {restaurant.reviews}, Rating: {restaurant.rating}, Price Range: {restaurant.price_range}")
-
-        restaurant_cuisines = RestaurantCuisine.query.limit(5).all()
-
-        print("\nRestaurantCuisine Association Table:")
-        for row in restaurant_cuisines:
-            print(f"Restaurant ID: {row.restaurant_id}, Cuisine ID: {row.cuisine_id}")
-
-    except Exception as e:
-        print(f"Error connecting to the database: {e}")
-"""
 
 
 @app.route('/order_history')
