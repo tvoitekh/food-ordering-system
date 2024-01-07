@@ -1,5 +1,7 @@
-Flask==2.0.2
-Flask-SQLAlchemy==3.0
-Flask-Login==0.5.1
-Flask-WTF==0.15.1
-Flask-Bcrypt==0.7.1
+Flask
+Flask-SQLAlchemy
+Flask-Login
+Flask-WTF
+Flask-Bcrypt
+psycopg2
+psycopg2-binary
