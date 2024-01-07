@@ -35,6 +35,28 @@
             color: #555;
         }
 
+        footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        footer a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+            display: inline-block;
+            padding: 10px 15px; /* Add padding to the left and right */
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        footer a:hover {
+            color: #0056b3;
+            background-color: #e6f7ff; /* Change background color on hover */
+        }
+
         select {
             width: 100%;
             padding: 10px;
@@ -116,6 +138,13 @@
                 }, 5000);
             }
         });
-    </script>      
+    </script>   
+    
+    {% if current_user.is_authenticated %}
+        <footer>
+            <p><a href="{{ url_for('logout') }}">Logout</a></p>
+        </footer>
+    {% endif %}
+    
 </body>
 </html>

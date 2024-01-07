@@ -106,9 +106,15 @@
 
     {% if current_user.is_authenticated %}
         <footer>
-            <p><a href="{{ url_for('logout') }}">Logout</a></p>
+            <p><a href="#" onclick="goBack()">Back</a></p>
         </footer>
     {% endif %}
+    
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 </body>
 
 </html>

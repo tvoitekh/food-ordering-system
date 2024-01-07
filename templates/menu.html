@@ -55,6 +55,29 @@
             width: 60px;
         }
 
+        footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        footer a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+            display: inline-block;
+            padding: 10px 15px; /* Add padding to the left and right */
+            border: 1px solid #007bff; /* Add border */
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        footer a:hover {
+            color: #0056b3;
+            background-color: #e6f7ff; /* Change background color on hover */
+        }
+
         button {
             background-color: #4caf50;
             color: #fff;
@@ -121,7 +144,18 @@
             </li>
         {% endfor %}
     </ul>
+
+    {% if current_user.is_authenticated %}
+        <footer>
+            <p><a href="#" onclick="goBack()">Back</a></p>
+        </footer>
+    {% endif %}
     
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 </body>
 
 </html>

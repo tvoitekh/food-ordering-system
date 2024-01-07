@@ -245,7 +245,6 @@ class FilterForm(FlaskForm):
                            for cuisine in cuisines]
 
         cuisine_choices.insert(0, (0, 'Any Cuisine'))
-        print(cuisine_choices)
 
         cuisine = SelectField('Cuisine', choices=cuisine_choices)
 
@@ -334,5 +333,4 @@ if __name__ == '__main__':
     with app.app_context():
         db.create_all()
 
-    print("Connected to the database successfully.")
     app.run(debug=True)
